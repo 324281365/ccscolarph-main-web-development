@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>&#12300;&#39321;&#28207;&#20219;&#25105;&#34892;&#12301;&#9472;&#9472;&#23416;&#29983;&#26222;&#36890;&#35441;&#26381;&#21209;&#26989;&#25512;&#24291;&#22823;&#20351;&#22521;&#32946;&#35336;&#21123;</title>
+
+
+
+<link href="Primary.css" rel="stylesheet" type="text/css"></head>
+
+<body>
+
+<div class="templateholder">
+
+<div style="text-align: center;"></div>
+
+<div style="text-align: center;" class="Layout2_header">
+
+<img style="width: 912px; height: 132px;" alt="banner.jpg" src="img/banner.jpg"></div>
+
+<div class="Layout2_1">
+
+  <table width="932" border="0">
+    <tr>
+      <td width="244" valign="top"><div align="center">
+           <p><a href="index.html"><img src="img/home.png" alt="" border="0" style="border: 0px solid ; "></a><br>
+              <a href="doc/briefing_session_ppt.pdf" target="blank"><img style="border: 0px solid ; " alt="" src="img/intro.png"><br></a>
+              <a href="activities.html"><img  style="border: 0px solid ; " alt=""src="img/activities.png"><br></a>
+              <a href="training.html"><img  style="border: 0px solid ; " alt=""src="img/training.png"><br></a>
+              <a href="http://picasaweb.google.com/xianggangrenwoxing2011" target="blank"><img  style="border: 0px solid ; " alt=""src="img/photo.png"><br></a>
+              <a href="doc/result.pdf" target="blank"><img style="border: 0px solid ; " alt="" src="img/result.png"><br></a></p>
+           </div></td>
+
+
+      <td width="678" valign="top"><a href="img/poster.jpg"><img src="img/poster.jpg" alt="" width="32" height="32" border="0" style="border: 0px solid ; width: 763px; height: 1080px;"></a>
+    </td>
+
+    </tr>
+  
+
+</table>
+  <span class="Layout2_2"></span>
+  <p>&nbsp;</p>
+  </div>
+
+
+</div>
+
+<br>
+
+</body></html>

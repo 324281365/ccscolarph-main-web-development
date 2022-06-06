@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>戲劇夢飛行--學生普通話戲劇推廣大使培育計劃</title> 
+	<meta name="author" content="HON Chun Kin"/>
+	<meta name="description" content="HKCC Web Developer"/>
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
+
+    <!-- start: CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	<style type="text/css">
+
+		@font-face {
+		   font-family: myFirstFont;
+		   src: url(setofont.ttf);
+		}
+		.listitem ul {
+			list-style-type: none;
+		}
+		.listitem li {
+			display: inline;
+		}
+		.zoomin img {
+			width: 80%;
+			position: relative;
+		  	-webkit-transition: all 2s ease;
+			-moz-transition: all 2s ease;
+			-ms-transition: all 2s ease;
+			transition: all 2s ease;
+		}
+		.zoomin img:hover {
+		  	width: 100%;
+			z-index: 1;
+		}
+		* {
+		  box-sizing: border-box;
+		}
+
+		#myInput {
+		  background-image: url('/css/searchicon.png');
+		  background-position: 10px 10px;
+		  background-repeat: no-repeat;
+		  width: 100%;
+		  font-size: 16px;
+		  padding: 12px 20px 12px 40px;
+		  border: 1px solid #ddd;
+		  margin-bottom: 12px;
+		}
+
+		#myTable {
+		  border-collapse: collapse;
+		  width: 100%;
+		  border: 1px solid #ddd;
+		  font-size: 18px;
+		}
+
+		#myTable th, #myTable td {
+		  text-align: center;
+		  padding: 12px;
+		}
+
+		#myTable th {
+			background-color: #CCCCFF;
+		}
+
+		#myTable tr {
+		  border-bottom: 1px solid #ddd;
+		}
+
+		#myTable tr:hover {
+		  background-color: #D9FFD9;
+		}
+
+		#myTable tr.header {
+		  background-color: #f1f1f1;
+		}
+	</style>
+	<!-- end: CSS -->
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	
+	<!--start: Header -->
+	<header>
+		
+		<!--start: Container -->
+		<div class="container">
+			
+			<!--start: Row -->
+			<div class="row">
+					
+				<!--start: Logo -->
+				<div class="logo span3">
+						
+					<a class="brand" href="index.html"><img src="img/hkcc/rsz_3icon.png" alt="Logo"></a>
+				</div>
+				<!--end: Logo -->
+					
+				<!--start: Navigation -->
+				<!-- width: 120% in bootstrap line 4372-->
+				<div class="span9">
+					
+					<div class="navbar navbar-inverse">
+			    		<div class="navbar-inner">
+			          		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			            		<span class="icon-bar"></span>
+			            		<span class="icon-bar"></span>
+			            		<span class="icon-bar"></span>
+			          		</a>
+			          		<div class="nav-collapse collapse">
+			            		<ul class="nav" style="z-index: 2001;">
+									<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">計劃事項<b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+                  						
+	                  						<li class="divider"></li>
+											<li class="nav-header">計劃簡介會</li>
+		                  					<li><a href="doc/briefing_session_ppt.pdf?a=4819566" target="_blank">計劃簡介</a></li>
+			                  				<li><a href="briefingdoc.html">簡介會文件</a></li>
+			                  				<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=1956106474650125" target="_blank">簡介會花絮</a></li>
+			                  				
+			                  				<li class="divider"></li>
+											<li class="nav-header">制服事項</li>
+		                					<li><a href="doc/uniform-size.pdf?a=344542" target="_blank">制服尺碼資料</a></li>
+			                  				<li><a href="doc/uniformexample.pdf" target="_blank">制服樣式</a></li>
+			                			</ul>
+			              			</li>
+			              			
+			              			<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">專題培訓講座 <b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+											<li class="divider"></li>
+											<li class="nav-header">專題培訓講座(一)</li>
+			                  				<li><a href="doc/1st_lecture/1st_lecture_ppt.pptx">講座講義(一)</a></li>
+			                  				<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=1965172003743572" target="_blank">講座花絮</a></li>
+			                  				<li class="divider"></li>
+			                  				<li class="nav-header">專題培訓講座(二)</li>
+			                  				<li><a href="doc/2st_lecture/2st_lecture_ppt.pptx">講座講義(二)</a></li>
+			                  				<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=1968738850053554" target="_blank">講座花絮</a></li>
+			                			</ul>
+			              			</li>
+			              			<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">分享會暨頒獎典禮<b class="caret"></b></a>
+	              							<ul class="dropdown-menu">
+												<li class="divider"></li>
+												<li class="nav-header">分享會暨頒獎典禮</li>
+												<li><a href="doc/share/SharingSession_schedule.pdf" target="_blank">分享會暨頒獎典禮程序表</a></li>
+												<li><a href="qrcode.html">分享會暨頒獎典禮程序表 - QR Code</a></li>
+												<li><a href="https://www.facebook.com/media/set/?set=a.2201322403461863&type=1&l=83961baec6" target="_blank">分享會暨頒獎典禮 - 花絮</a></li>
+												<li class="divider"></li>
+												<li class="nav-header">表演劇目</li>
+												<li><a href="doc/share/story/keichi_story.pdf" target="_blank">中華基督教會基智中學-表演劇目大綱：「雙 ‧ 害」</a></li>
+												<li><a href="doc/share/story/langsongshe_story.pdf" target="_blank">香港大專普通話朗誦社-表演劇目：「可愛的小鳥」</a></li>
+										</ul>
+									</li>
+			              			<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">成果展覽開幕典禮 <b class="caret"></b></a>
+	              							<ul class="dropdown-menu">
+												<li><a href="doc/open_result_schedule.pdf" target="_blank">開幕典禮程序表</a></li>
+												<li><a href="https://www.facebook.com/media/set/?set=a.2177007149226722&type=1&l=dfcec559fb" target="_blank">開幕典禮花絮</a></li>
+										</ul>
+									</li>
+			              			
+									<li><a href="https://www.facebook.com/dramadreamstakingoff/">Facebook專頁</a></li>
+		              			
+			              			
+			              			<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">實地考察<b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+											<li class="divider"></li>
+											<li class="nav-header">電影資料館</li>
+			                  				<li><a href="doc/Field_trip/FieldTrip_timetable.pdf" target="_blank">電影資料館考察團時間表</a></li>
+			                  				<li><a href="doc/Field_trip/location.jpeg" target="_blank">電影資料館位置圖</a></li>
+											<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=1999990843595021" target="_blank">考察花絮</a></li>
+			                  				<li class="divider"></li>
+			                  				<li class="nav-header">香港演藝學院</li>
+											<li><a href="doc/Field_trip/HKAPA_FieldTrip_timetable.pdf" target="_blank">演藝學院考察團時間表</a></li>
+											<li><a href="doc/Field_trip/HKAPA_Openday_schedule.pdf" target="_blank">演藝學院開放日行程安排</a></li>
+											<li><a href="https://www.hkapa.edu/tch/event/hkapa-open-day-2018" target="_blank">演藝學院開放日節目時間表</a></li>
+											<li><a href="https://www.hkapa.edu/tch/about/getting-here" target="_blank">演藝學院位置圖</a></li>
+											<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=1999999840260788" target="_blank">考察花絮</a></li>
+			                  				<li class="divider"></li>
+			                  				<li class="nav-header">電視台</li>
+											<li><a href="doc/Field_trip/tv_timetable.pdf" target="_blank">考察鳳凰衛視時間表</a></li>
+											<li><a href="doc/Field_trip/rthk_timetable.pdf" target="_blank">考察香港電台時間表</a></li>
+											<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=2006795472914558" target="_blank">考察花絮(香港電台)</a></li>
+		                					<li class="divider"></li>
+											<li class="nav-header">匯演綵排</li>
+											<li><a href="doc/Field_trip/Instruction_booking_sysyem.pdf" target="_blank">匯演綵排預約系統操作說明</a></li>
+											<li><a href="doc/Field_trip/Instruction_Rehearsal.pdf" target="_blank">匯演綵排指引</a></li>
+											<li><a href="doc/Field_trip/Instruction_Rehearsal_venue.pdf" target="_blank">匯演綵排場地設施指引</a></li>
+											<li><a href="doc/Field_trip/Rehearsal_timetable_21.02.18.pdf" target="_blank">匯演綵排時間表</a></li>
+											<li><a href="doc/Field_trip/PolyU_Map.pdf" target="_blank">理大校園地圖</a></li>
+			                			</ul>
+			              			</li>
+
+			              			<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">戲劇匯演<b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+											<li class="divider"></li>
+											<li class="nav-header">戲劇匯演</li>
+												<li><a href="doc/Field_trip/talent_show_timetable.pdf" target="_blank">戲劇匯演時間表</a></li>
+												<li><a href="doc/Field_trip/talent_show_changing_timetable.pdf" target="_blank">化妝間使用次序時間表</a></li>
+											<li class="divider"></li>
+											<li class="nav-header">戲劇匯演結果</li>
+												<li><a href="doc/dream_result_2018.pdf" target="_blank">戲劇匯演得獎名單</a></li>
+												<li onclick="result()"><a href="#">戲劇匯演影片</a></li>
+												<script>
+												function result() {
+													alert("Send左比老師喇! 快啲問問老師收到未啦!");
+												}
+												</script>
+											<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=2046527392274699" target="_blank">匯演花絮 - 5月5日</a></li>
+											<li><a href="https://www.facebook.com/pg/dramadreamstakingoff/photos/?tab=album&album_id=2043251169268988" target="_blank">匯演花絮 - 5月6日</a></li>
+											<li><a href="video.html">八隊優秀隊伍-精彩影片</a></li>
+										</ul>
+									</li>
+	              			
+	              					<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">展板設計比賽 <b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+		                  					<li><a href="doc/board_design/board_design_instruction.pdf?a=12341" target="_blank">展板設計比賽指引</a></li>
+			                  				<li><a href="doc/board_design/board_design_winner.pdf?a=12342">展板設計比賽得獎名單</a></li>
+			                			</ul>
+			              			</li>
+		              			
+			              			<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">本院推廣普通話計劃簡介 <b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+			                  				<li><a href="../2010/index.html" target="_blank">2010</a></li>
+			                  				<li><a href="../2011/index.html" target="_blank">2011</a></li>
+			                			</ul>
+			              			</li>
+			            		</ul>
+			          		</div>
+			        	</div>
+			      	</div>
+					
+				</div>	
+				<!--end: Navigation -->
+					
+			</div>
+			<!--end: Row -->
+			
+		</div>
+		<!--end: Container-->			
+			
+	</header>
+	<!--end: Header-->
+	
+	<!-- start: Slider -->
+	<div class="slider-wrapper">
+
+		<div id="da-slider" class="da-slider">
+			<div class="da-slide">
+				<h2>香港理工大學 香港專上學院</h2>
+				<p>「戲劇夢飛行—學生普通話戲劇推廣大使培育計劃」</p>
+				<a href="https://www.facebook.com/dramadreamstakingoff/" target="_blank" class="da-link">瀏覽更多</a>
+				<div class="da-img"><img src="img/hkcc/Webp.net-resizeimage.png" style="border-radius: 10px;" alt="image01" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>計劃目標</h2>
+				<p>旨在糅合普通話及戲劇表演兩大元素<br/>
+				透過舉辦各種適合中學生參與的普通話培訓活動<br/>
+				包括普通話講座、戲劇培訓、實地考察、戲劇匯演等，提升學生的普通話應用水平。</p>
+				<a href="doc/briefing_session_ppt.pdf" target="_blank" class="da-link">瀏覽更多</a>
+				<div class="da-img"><img src="img/hkcc/allstudent.jpg" style="border-radius: 10px;" alt="image03" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>活動對象及名額</h2>
+				<p>
+				來自 &nbsp;24 所學校的中一至中四學生<br/><br/>
+				每校派出一隊不多於 &nbsp;14 位學生組成的團隊
+				</p>
+				<div class="da-img"><img src="img/hkcc/student1.jpg" alt="image02" style="border-radius: 10px;" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>專題培訓講座(一)</h2>
+				<p>圍繞普通話演說技巧及中國戲劇探討</p>
+				<a href="doc/1st_lecture/1st_lecture_ppt.pptx" target="_blank" class="da-link">瀏覽更多</a>
+				<div class="da-img"><img src="img/hkcc/student3.jpg" style="border-radius: 10px;" alt="image04" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>專題培訓講座(二)</h2>
+				<p>圍繞普通話演說技巧及中國戲劇探討</p>
+				<a href="doc/2st_lecture/2st_lecture_ppt.pptx" target="_blank" class="da-link">瀏覽更多</a>
+				<div class="da-img"><img src="img/hkcc/student5.jpg" style="border-radius: 10px;" alt="image04" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>獎項</h2>
+				<p>計劃除設立優秀隊伍獎、最佳展板設計獎、<br/>
+				最佳男女主角獎、最具創意劇本獎、<br/>
+				最佳演繹獎及最佳造型獎外<br/>
+				所有參加學生均可獲頒證書，<br/>
+				指導老師也會獲頒嘉許證書。</p>
+				<div class="da-img"><img src="img/hkcc/slide_gold.png" alt="image04" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>「八隊優秀隊伍」 (排名不分先後)</h2>
+				<p style="width: auto; font-style: normal; line-height: 1.5; color: #bf3f6d;">
+				寶覺中學&nbsp |《美麗世界》<br/>
+				迦密愛禮信中學&nbsp |《愛與夢飛行》<br/>
+				聖保祿學校&nbsp（中學部） |《我們正青春》<br/>
+				香島中學&nbsp |《當我遇上我》<br/>
+				台山商會中學&nbsp |《原來有你》<br/>
+				香港四邑商工總會陳南昌紀念中學&nbsp |《蛻變》<br/>
+				中華基督教會基智中學&nbsp |《雙‧害》<br/>
+				聖傑靈女子中學&nbsp |《人．仁》
+				</p>
+				<div class="da-img" ><img src="img/hkcc/confetti_ball.png" style="width: 65%; top: 70px; border-radius: 10px;" alt="image05" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>其餘得獎名單</h2>
+				<p style="width: auto; font-style: normal; line-height: 2; color: #bf3f6d;">
+				「最佳男演員」| &nbsp寶覺中學 / 《美麗世界》— 蔡曉珀（演：老伯）<br/>
+				「最佳女演員」| &nbsp馬鞍山聖若瑟中學 / 《誰聽孩子心》— 甘泳瑤（演：孔母）<br/>
+				「最佳演繹獎」| &nbsp中華基督教會基智中學 / 《雙‧害》<br/>
+				「最具創意劇本獎」| &nbsp拔萃女書院/ 《邱比特》<br/>
+				「最佳造型獎」| &nbsp賽馬會毅智書院 /《蛻變》
+				</p>
+				<div class="da-img" ><img src="img/hkcc/Sports_Medal.png" style="width: 70%; top: 50px; border-radius: 10px;" alt="image05" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>展板設計比賽得獎名單</h2>
+				<p style="width: auto; font-style:normal; line-height: 2; color: #bf3f6d; font-size: 20px;">
+				「冠軍」| &nbsp中華基督教會基智中學<br/>
+				「亞軍」| &nbsp聖保祿學校（中學部）<br/>
+				「季軍」| &nbsp聖傑靈女子中學<br/>
+				</p>
+				<div class="da-img" ><img src="img/hkcc/board_burned.png" style="width: 70%; top: 50px; border-radius: 10px;" alt="image05" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>成果展覽開幕典禮</h2>
+				<p>日期：2018年 10月 27日 (星期六)<br/>
+				時間：下午 4:00 - 5:30<br/>
+				地點：九龍公園廣場</p>
+				<a href="doc/open_result_schedule.pdf" target="_blank" class="da-link">瀏覽更多</a>
+				<div class="da-img"><img src="https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/45041818_2177026935891410_674364248347901952_o.jpg?_nc_cat=103&_nc_ht=scontent-hkg3-2.xx&oh=db8554c2b28f1daa20728764ec3a311e&oe=5C8135CC" style="border-radius: 10px;" alt="image" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>分享會暨頒獎典禮</h2>
+				<p>日期：2018 年 11 月 24 日 (星期六)<br/>
+				時間：上午 10:30 - 下午 12:00<br/>
+				地點：理大香港專上學院 (紅磡灣校園)   1 樓多功能禮堂</p>
+				<a href="https://www.facebook.com/media/set/?set=a.2201322403461863&type=1&l=83961baec6" target="_blank" class="da-link">瀏覽更多</a>
+				<div class="da-img"><img src="img/result/slider.jpeg" style="border-radius: 10px;" alt="image" /></div>
+			</div>
+			<nav class="da-arrows">
+				<span class="da-arrows-prev"></span>
+				<span class="da-arrows-next"></span>
+			</nav>
+		</div>
+		
+	</div>
+	<!-- end: Slider -->
+			
+	<!--start: Wrapper-->
+	<div id="wrapper">
+				
+		<!--start: Container -->
+    	<div class="container">
+		<br/>
+      	<h2 style="font-family: myFirstFont;">戲劇匯演影片</h2>
+      	<br/>
+
+		<input type="text" id="myInput" onkeyup="result()" placeholder="搜尋學校名稱.." title="Type in a name">
+
+		<table id="myTable">
+		  <tr class="header">
+		  	<th style="width:10%;">No. #</th>
+		    <th style="width:50%;">學校名稱</th>
+		    <th style="width:40%;">Link</th>
+		  </tr>
+		  <tr>
+		    <td>1</td>
+		    <td>東華三院甲寅年總理中學</td>
+		    <td><a href="https://drive.google.com/open?id=1dBl4Hl1dsacBgi8P-llYWnAh2QWZ5G8y" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>2</td>
+		    <td>佛教葉紀南紀念中學</td>
+		    <td><a href="https://drive.google.com/open?id=1erfLO5xl9IJ84B0MT9oI62WHxjEwTxDs" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>3</td>
+		    <td>賽馬會毅智書院</td>
+		    <td><a href="https://drive.google.com/open?id=1KxGArDWySWqlC5Xuw0yWre_2nzql_-Wf" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>4</td>
+		    <td>九龍真光中學</td>
+		    <td><a href="https://drive.google.com/open?id=1lPD8A8Iq9wbKRUMOewlS1aSq6JiGJsqU" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>5</td>
+		    <td>寶覺中學</td>
+		    <td><a href="https://drive.google.com/open?id=1Oaoy4PJNuvSoUZYmsdVZHwDrE5vfLuo_" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>6</td>
+		    <td>聖保祿學校（中學部）</td>
+		    <td><a href="https://drive.google.com/open?id=1R3X5SknVt0GaO9TnTgibzcWtBGdg8175" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>7</td>
+		    <td>福建中學（觀塘）</td>
+		    <td><a href="https://drive.google.com/open?id=1YvED86DdztVl_ovlcDkYnrEwqR8mFpyp" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>8</td>
+		    <td>拔萃女書院</td>
+		    <td><a href="https://drive.google.com/open?id=1Kau8MWAim4oE_YmxN-XSWpbbHyLHtSrV" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>9</td>
+		    <td>筲箕灣官立中學</td>
+		    <td><a href="https://drive.google.com/open?id=1oZaqLacOHokGqYT-99QsQck-sR01ewwb" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>10</td>
+		    <td>香島中學</td>
+		    <td><a href="https://drive.google.com/open?id=1IvvwRvuHs8vHCixkm5q4rF5u8tJH34FU" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>11</td>
+		    <td>佛教筏可紀念中學</td>
+		    <td><a href="https://drive.google.com/open?id=1jd29nTC2OfoYUpAxT2AkQ7CD7aC8Vrid" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>12</td>
+		    <td>可立中學（嗇色園主辦）</td>
+		    <td><a href="https://drive.google.com/open?id=1Hn0LJBpVqkgIsIo_5ELe5DoUr5i3x_JC" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>13</td>
+		    <td>香港四邑商工總會陳南昌紀念中學</td>
+		    <td><a href="https://drive.google.com/open?id=15LLwmvBHYr5LlkIHwZ6ka7a-b9JvlNsZ" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>14</td>
+		    <td>中華基督教會基智中學</td>
+		    <td><a href="https://drive.google.com/open?id=1ZrjDEX7qNv0ci7gYhMqTEfNmqSzwmGjo" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>15</td>
+		    <td>台山商會中學</td>
+		    <td><a href="https://drive.google.com/open?id=1yf_yFN7sJsjUxetmsV0Tarooqh67FXrn" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>16</td>
+		    <td>青年會書院</td>
+		    <td><a href="https://drive.google.com/open?id=1tr6Mug1bSlq4Xf3EWdS-dA5f5G-El8ir" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>17</td>
+		    <td>聖傑靈女子中學</td>
+		    <td><a href="https://drive.google.com/open?id=1GbKxJEX0IyJ-eKFXbWuhlIoU2-YkDkdw" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>18</td>
+		    <td>香港教師會李興貴中學</td>
+		    <td><a href="https://drive.google.com/open?id=1NRMDxYYNAt5pWoenAFOqr50KS_f6Bdrz" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>19</td>
+		    <td>中華傳道會劉永生中學</td>
+		    <td><a href="https://drive.google.com/open?id=1FcIEUt40qI7ERbB_QREGTakRZwPWxuXU" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>20</td>
+		    <td>迦密愛禮信中學</td>
+		    <td><a href="https://drive.google.com/open?id=1BP9pklysOtWe5VeSHQQQfO6eAul_LpDK" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>21</td>
+		    <td>佛教慧因法師紀念中學</td>
+		    <td><a href="https://drive.google.com/open?id=1kWgCGPNQhzABUauyWWqn7smPyCu0b9dC" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>22</td>
+		    <td>裘錦秋中學（屯門）</td>
+		    <td><a href="https://drive.google.com/open?id=1tuSaUv3ZWP5FqUzT5kSjraiF09-IgPyz" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>23</td>
+		    <td>馬鞍山聖若瑟中學</td>
+		    <td><a href="https://drive.google.com/open?id=1T03v_qGa_aqOcGk2V9IZYgLiS81dxemI" target="_blank">影片連結</a></td>
+		  </tr>
+		  <tr>
+		    <td>24</td>
+		    <td>香港道教聯合會圓玄學院第三中學</td>
+		    <td><a href="https://drive.google.com/open?id=1kLa_UYJSPt6AqD8nKjCegkl49425dA5z" target="_blank">影片連結</a></td>
+		  </tr>
+		</table>
+
+		<script>
+		function result() {
+		  var input, filter, table, tr, td, i;
+		  input = document.getElementById("myInput");
+		  filter = input.value.toUpperCase();
+		  table = document.getElementById("myTable");
+		  tr = table.getElementsByTagName("tr");
+		  for (i = 0; i < tr.length; i++) {
+		    td = tr[i].getElementsByTagName("td")[1];
+		    if (td) {
+		      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+		        tr[i].style.display = "";
+		      } else {
+		        tr[i].style.display = "none";
+		      }
+		    }       
+		  }
+		}
+		</script>
+			
+		</div>
+		<!--end: Container-->
+	
+	</div>
+	<!-- end: Wrapper  -->			
+
+	<!-- start: Footer -->
+	<div id="footer">
+		
+		<!-- start: Container -->
+		<div class="container">
+			
+			<!-- start: Row -->
+			<div class="row">
+				<div class="span 3">
+					<!-- start: 主辦機構 -->
+					<h3>主辦機構</h3>
+					<ul class="listitem">
+						<li>
+							<a href="http://www.hkcc-polyu.edu.hk/" target="_blank">
+							<img src="img/logo/HKCC Logo (Color)-01.jpg" width="150"/></a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="row">
+
+				<div class="span 6">
+					<!-- start: 支持及撥款機構 -->
+					<h3>支持及撥款機構</h3>
+					<ul class="listitem">
+						<li>
+							<a href="http://www.language-education.com/chi/index.asp" target="_blank">
+							<img src="img/logo/03-0816 Scolar logo_4C.jpg?a=48195" width="150"/></a>
+						</li>
+						<li>
+							<a href="http://www.language-education.com/chi/lf.asp" target="_blank">
+							<img src="img/logo/language-fund.jpg" width="150"/></a>
+						</li>
+					</ul>
+				</div>
+					<!-- end: 支持及撥款機構 -->
+				<div class="span 6">
+					<h3>支持機構</h3>
+					<ul class="listitem">
+						<li>
+							<a href="https://www.facebook.com/pg/HKSLM/about/" target="_blank">
+							<img src="img/logo/HKSCLM_GIF.gif" width="150"/></a>
+						</li>
+						<li>
+							<a href="http://www.prospectstheatre.com/about/info.php" target="_blank">
+							<img src="img/logo/Logo_PTC_WithAD.jpg" width="150"/></a>
+						</li>
+						<li>
+							<a href="http://langsongshe.com/" target="_blank">
+							<img src="img/logo/PTHLCH.jpg" width="150"/></a>
+						</li>
+						<li>
+							<a href="http://www.pinyin.hk/" target="_blank">
+							<img src="img/logo/PPTH-Logo.jpg" width="150"/></a>
+						</li>
+					</ul>	
+				</div>
+
+			</div>
+			<!-- end: Row -->	
+			
+		</div>
+		<!-- end: Container  -->
+
+	</div>
+	<!-- end: Footer -->
+ 
+	<!-- start: Copyright -->
+	<div id="copyright">
+	
+		<!-- start: Container -->
+		<div class="container">
+		
+			<p>
+				&copy; 2017, Hong Kong Community College. All Rights Reserved. <a href="http://www.hkcc-polyu.edu.hk/" alt="HKCC"><br/>
+				Hong Kong Community College</a> <br/>
+				supervised by AU Ho Kwun, designed by HON Chun Kin
+			</p>
+	
+		</div>
+		<!-- end: Container  -->
+		
+	</div>	
+	<!-- end: Copyright -->
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/jquery.cslider.js"></script>
+<script src="js/slider.js"></script>
+<script defer="defer" src="js/custom.js"></script>
+<!-- end: Java Script -->
+
+</body>
+</html>

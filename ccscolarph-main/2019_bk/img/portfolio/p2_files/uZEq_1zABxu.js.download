@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["0VCUI"]); }
+
+__d("PartnerIntegrationSelectedPartnerTypeReducerPlugins",["PartnerIntegrationPartnerList"],(function(a,b,c,d,e,f){"use strict";a={reduce:function(a,c){a=c.partnerType!=null?c.partnerType:null;return b("PartnerIntegrationPartnerList").partners.includes(a)?a:null}};c={reduce:function(a,c){a=c.data.params;c=a.partner_type!=null?a.partner_type:a.partnerType;return b("PartnerIntegrationPartnerList").partners.includes(c)?c:null}};e.exports={onPartnerTypeUpdate:a,onRouteUpdate:c}}),null);
